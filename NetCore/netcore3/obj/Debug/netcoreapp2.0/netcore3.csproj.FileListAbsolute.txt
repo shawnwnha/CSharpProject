@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\bin\Debug\netcoreapp2.0\netcore3.deps.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\bin\Debug\netcoreapp2.0\netcore3.runtimeconfig.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\bin\Debug\netcoreapp2.0\netcore3.runtimeconfig.dev.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\bin\Debug\netcoreapp2.0\netcore3.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\bin\Debug\netcoreapp2.0\netcore3.pdb
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.AssemblyInfo.cs
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\netcore3\obj\Debug\netcoreapp2.0\netcore3.pdb

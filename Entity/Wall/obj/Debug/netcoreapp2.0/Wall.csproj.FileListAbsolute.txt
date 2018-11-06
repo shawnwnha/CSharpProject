@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\bin\Debug\netcoreapp2.0\Wall.deps.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\bin\Debug\netcoreapp2.0\Wall.runtimeconfig.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\bin\Debug\netcoreapp2.0\Wall.runtimeconfig.dev.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\bin\Debug\netcoreapp2.0\Wall.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\bin\Debug\netcoreapp2.0\Wall.pdb
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.AssemblyInfo.cs
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\Wall\obj\Debug\netcoreapp2.0\Wall.pdb

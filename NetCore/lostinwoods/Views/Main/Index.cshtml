@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Lost in Woods </h1>
+    <p>List of local hiking trails</p>
+    <table>
+        <tr>
+            <td>Trail Name</td>
+            <td>Trail Length</td>
+            <td>Elevation Change</td>
+        </tr>
+        @foreach(var x in @ViewBag.trails){
+            <tr>
+                <td><a href="/trails/@x.Id">@x.Name</a></td>
+                <td>@x.Length</td>
+                <td>@x.Elevation</td>
+            </tr>
+        }
+    </table>
+    <button><a href="/newtrail">Wanna Add new Trail?</a></button>
+</body>
+</html>

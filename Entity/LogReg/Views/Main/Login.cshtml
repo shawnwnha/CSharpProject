@@ -1,0 +1,27 @@
+@using LogReg.Models 
+@model User
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body style="text-align: center;">
+    <h1>LOGIN FORM</h1>
+    <p>@ViewBag.Error</p>
+    <div id="wrapper" style="display: inline-block;border: 1px solid black; width: 300px; height: 300px;">
+        <form action="login" method="POST" style="margin-top:30%;">
+            <label for ="ID">ID: <input type="email" name="ID"></label><br><br>
+            <label for ="PW">PASSWORD: <input type="password" name="PW"></label><br>
+            <input type="submit" value="LOGIN" style="background-color: white;">
+        </form>
+    </div><br>
+    <br>
+    <br>
+    <a href="/" style="color: red;">TO REGISTER PAGE || TO REGISTER PAGE || TO REGISTER PAGE ||</a>
+</body>
+</html>

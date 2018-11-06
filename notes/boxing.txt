@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+
+namespace firstapp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<object> anObject = new List<object>();
+            anObject.Add(7);
+            anObject.Add(28);
+            anObject.Add(-1);
+            anObject.Add(true);
+            anObject.Add("Chair");
+            int num = 0;
+            foreach(var x in anObject){
+                if(x is int){
+                    num += (int)x;
+                }
+            }
+            Console.WriteLine(num);
+        }
+    }
+}

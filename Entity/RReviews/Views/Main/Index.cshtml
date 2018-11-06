@@ -1,0 +1,38 @@
+@using RReviews.Models 
+@model Post
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Write a REVIEW:</h1>
+    <form action="" method="post">
+        <span asp-validation-for="XName"style="color:red;"></span><br>
+        <label asp-for ="XName">Reviewer Name: <input type="text" asp-for="XName"></label><br>
+        <span asp-validation-for="YName"style="color:red;"></span><br>
+        <label asp-for ="YName">Restaurant Name: <input type="text" asp-for="YName"></label><br>
+        <span asp-validation-for="Review"style="color:red;"></span><br>
+        <label asp-for ="Review">Review: <textarea asp-for="Review"></textarea></label><br>
+        <span asp-validation-for="Datevisit"style="color:red;"></span><br>
+        <label asp-for ="Datevisit">Date of Visit: <input type="datetime" asp-for="Datevisit"></label><br>
+        <span asp-validation-for="Rating"style="color:red;"></span><br>
+        <label asp-for ="Rating">Stars: 
+            <select asp-for="Rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </label><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

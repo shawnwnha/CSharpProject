@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+@using netcore2.Models 
+@model Number
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <link rel="stylesheet" href="~/css/firstpage.css"/>
+    </head>
+    <body>
+        @foreach(var x in @Model.numbers){
+            <h1>@x</h1>
+        }
+    </body>
+</html>

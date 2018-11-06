@@ -1,0 +1,16 @@
+<body style="text-align:center;">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Quote</td>
+            <td>Created_at</td>
+        </tr>
+        @foreach(var x in @ViewBag.allusers){
+            <tr>
+                <td>@x.name</td>
+                <td>@x.quote</td>
+                <td>@x.created_at</td>
+            </tr>
+        }
+    </table>
+</body>

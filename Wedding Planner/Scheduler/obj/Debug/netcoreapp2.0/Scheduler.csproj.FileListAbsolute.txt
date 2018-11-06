@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\bin\Debug\netcoreapp2.0\Scheduler.deps.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\bin\Debug\netcoreapp2.0\Scheduler.runtimeconfig.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\bin\Debug\netcoreapp2.0\Scheduler.runtimeconfig.dev.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\bin\Debug\netcoreapp2.0\Scheduler.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\bin\Debug\netcoreapp2.0\Scheduler.pdb
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.AssemblyInfo.cs
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\beltPrep\Scheduler\obj\Debug\netcoreapp2.0\Scheduler.pdb

@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+
+namespace firstapp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // string[] array2 = {"SHAWN","Nha","Baller","Killah","Johnny"};
+            // List <string> icecream = new List<string>();
+            // icecream.Add("Mint");
+            // icecream.Add("Cookies&Cream");
+            // icecream.Add("GreenTea");
+            // icecream.Add("KillaTaste");
+            // icecream.Add("Rainbow");
+            // Random rand = new Random();
+            // Dictionary<string,string> dict = new Dictionary<string,string>();
+            // for(var i =0;i<array2.Length;i++){
+            //     dict.Add(array2[i],null);
+            // }
+            // var keys = new List<string>(dict.Keys);
+            // foreach(string key in keys){
+            //     dict[key]= icecream[rand.Next(0,5)];
+            // }
+            // foreach(var x in dict){
+            //     Console.WriteLine(x.Key+" - "+x.Value);
+            // }
+
+
+            // int[,] array2D = new int[10,10];
+            // for(var i = 0;i<10;i++){
+            //     var counter = i+1;
+            //     for(var j =0;j<10;j++){
+            //         array2D[i,j]=counter;
+            //         counter += i+1;
+            //     }
+            // } 
+            // for(var x=0;x<10;x++){
+            //     for(var y=0;y<10;y++){
+            //         Console.WriteLine(array2D[x,y]);
+            //     }
+            // }
+        }
+    }
+}

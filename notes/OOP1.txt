@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+
+namespace firstapp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Human user1 = new Human("Shawn");
+            Human user2 = new Human("Sumie",10,10,10,200);
+    
+            Console.WriteLine(user1.health);
+            user2.attack(user1);
+            Console.WriteLine(user1.health);
+            Console.WriteLine(user2.strength);
+        }
+    }
+}
+
+
+namespace firstapp{
+    public class Human{
+        public string name;
+        public int strength;
+        public int intelligence;
+        public int dexterity;
+        public int health;
+
+        public Human(string n, int s=3, int i=3, int d=3, int h = 100){
+            name = n;
+            strength = s;
+            intelligence = i;
+            dexterity =d;
+            health= h;
+        }
+
+        public void attack(object obj){
+            Human x = obj as Human;
+            x.health -= strength*5;
+        }
+    }
+}

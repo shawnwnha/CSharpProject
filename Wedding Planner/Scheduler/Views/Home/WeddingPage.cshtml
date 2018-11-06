@@ -1,0 +1,11 @@
+<h1>@ViewBag.wedding.Wedder1 and @ViewBag.wedding.Wedder2's wedding</h1>
+<h2>Date : @ViewBag.wedding.Date</h2>
+<h3>Guests: </h3>
+<ul>
+    @foreach(var x in @ViewBag.wedding.Attenders){
+        <li>@x.Firstname</li>
+    }
+</ul>
+<br>
+<h4>Location: </h4>
+<h5>@ViewBag.wedding.Address</h5>

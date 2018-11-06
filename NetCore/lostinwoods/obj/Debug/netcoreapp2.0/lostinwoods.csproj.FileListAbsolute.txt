@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.AssemblyInfo.cs
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\bin\Debug\netcoreapp2.0\lostinwoods.deps.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\bin\Debug\netcoreapp2.0\lostinwoods.runtimeconfig.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\bin\Debug\netcoreapp2.0\lostinwoods.runtimeconfig.dev.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\bin\Debug\netcoreapp2.0\lostinwoods.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\bin\Debug\netcoreapp2.0\lostinwoods.pdb
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\NetCore\lostinwoods\obj\Debug\netcoreapp2.0\lostinwoods.pdb

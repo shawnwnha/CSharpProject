@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.AssemblyInfo.cs
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\bin\Debug\netcoreapp2.0\EntityPractice1.deps.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\bin\Debug\netcoreapp2.0\EntityPractice1.runtimeconfig.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\bin\Debug\netcoreapp2.0\EntityPractice1.runtimeconfig.dev.json
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\bin\Debug\netcoreapp2.0\EntityPractice1.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\bin\Debug\netcoreapp2.0\EntityPractice1.pdb
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.dll
+C:\Users\User\Desktop\Working directory\CSharp Stack\Entity\EntityPractice1\obj\Debug\netcoreapp2.0\EntityPractice1.pdb

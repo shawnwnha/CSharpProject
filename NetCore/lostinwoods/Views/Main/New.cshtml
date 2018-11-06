@@ -1,0 +1,35 @@
+@using lostinwoods.Models 
+@model Trail
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Add a New Trail</h1> 
+    <form action="" method="post">
+        <span asp-validation-for="Name"style="color:red;"></span><br>
+        <label asp-for="Name">Name: <input asp-for="Name"></label><br>
+    
+        <span asp-validation-for="Description"style="color:red;"></span><br>
+        <label asp-for="Description">Description: <input asp-for="Description"></label><br>
+
+        <span asp-validation-for="Length" style="color:red;"></span><br>
+        <label asp-for="Length">Trail Length: <input asp-for="Length"></label><br>
+        <span asp-validation-for="Elevation"style="color:red;"></span><br>
+        <label asp-for="Elevation">Elevation Change: <input asp-for="Elevation"></label><br>
+        <span asp-validation-for="Longitude"style="color:red;"></span><br>
+        <label asp-for="Longitude">Longitude: <input asp-for="Longitude"></label><br>
+        <span asp-validation-for="Latitude"style="color:red;"></span><br>
+        <label asp-for="Latitude">Latitude: <input asp-for="Latitude"></label><br>
+        <input value="Create Record!" type="submit">
+    </form>
+    <a href="/">GoHOME</a>
+</body>
+</html>

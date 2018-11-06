@@ -1,0 +1,32 @@
+@model Wall.Models.Message
+<h1>Welcome! @ViewBag.user</h1>
+<br>
+<hr>
+<div style="text-align: center;">
+    <h1>Post a Message</h1>
+    <p>@ViewBag.Error</p>
+    <div id="wrapper" style="display: inline-block;border: 1px solid black;">
+        <form method="POST" asp-controller="Home" asp-action="main">
+            <span asp-validation-for="Content"style="color:red;"></span><br>
+            <label asp-for ="Content"><textarea asp-for="Content"></textarea></label>
+            <input type="submit" value="PostMessage!" style="background-color: white;">
+        </form>
+    </div><br>
+</div>
+<div style="text-align: left;">
+    @foreach(var x in @ViewBag.allmessages){
+        <h3>@x.User.Firstname @x.User.Lastname - @x.created_at</h3>
+        <p>@x.Content</p>
+        @foreach(var y in @x.Comments){
+            <h3>@y.User.Firstname @y.User.Lastname - @y.created_at</h3>
+            <p>@y.Content</p>
+        }
+        <div id="wrapper" style="display: inline-block;border: 1px solid black;">
+            <h2>Post Comment</h2>
+            <form action="/postmessage/@x.MessageId" method="POST">
+                <label for ="cmt"><textarea name="cmt"></textarea></label>
+                <input type="submit" value="PostComment!" style="background-color: white;">
+            </form>
+        </div>
+    }
+</div>

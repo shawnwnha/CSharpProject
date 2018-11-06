@@ -1,0 +1,19 @@
+@using Scheduler.Models
+@model Wedding 
+
+<div style="text-align: center;">
+    <h1>Plan Wedding!</h1>
+    <div id="wrapper" style="display: inline-block;border: 1px solid black; text-align: center;">
+        <form method="POST" asp-controller="Home" asp-action="SubmitForm">
+            <span asp-validation-for="Wedder1"style="color:red;"></span><br>
+            <label asp-for ="Wedder1">Wedder1 Name: <input type="text" asp-for="Wedder1"></label><br>
+            <span asp-validation-for="Wedder2"style="color:red;"></span><br>
+            <label asp-for ="Wedder2">Wedder2 Name: <input type="text" asp-for="Wedder2"></label><br>
+            <span asp-validation-for="Date"style="color:red;"></span><br>
+            <label asp-for ="Date">Date: <input type="date" asp-for="Date"></label><br>  
+            <span asp-validation-for="Address"style="color:red;"></span><br>
+            <label asp-for ="Address">Address: <input type="text" asp-for="Address"></label><br>
+            <input type="submit" value="submit" style="background-color: white;">
+        </form>
+    </div><br>
+</div>  

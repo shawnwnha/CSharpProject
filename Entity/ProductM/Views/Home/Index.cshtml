@@ -1,0 +1,16 @@
+﻿@model ProductM.Models.Product
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <h2>New Product</h2>
+    <form method="POST" asp-controller="Home" asp-action="SubmitProduct">
+        <span asp-validation-for="Name"style="color:red;"></span><br>
+        <label asp-for ="Name">Name:<br><input type="text" asp-for="Name"></label><br>
+        <span asp-validation-for="Description"style="color:red;"></span><br>
+        <label asp-for ="Description">Description:<br> <textarea asp-for="Description"></textarea></label><br>
+        <span asp-validation-for="Price"style="color:red;"></span><br>
+        <label asp-for ="Price">Price:<br><input asp-for="Price" value="0"></label><br>
+        <input type="submit" value="Create" style="background-color: white;">
+    </form>
+</div>

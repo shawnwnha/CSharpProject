@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="~/css/razor.css">
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        </head>
+    <body>
+        <div id ="wrapper" style="display:inline-block; width:80%; height:80%; border: 1px solid black">
+            @{
+                var sList = new string[] {"A","B","C"};
+                foreach(var x in sList){
+                    if(x[0] == Convert.ToChar("C")){
+                        <p style="color:red;">@x</p>
+                    }
+                    else{
+                        <p>@x</p>
+                    }
+                }
+                DateTime currentTime = DateTime.Now;
+                <p>Current Time is @currentTime</p>
+            }
+        </div>
+    </body>
+</html>

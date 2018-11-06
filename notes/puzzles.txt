@@ -1,0 +1,88 @@
+using System;
+using System.Collections.Generic;
+
+namespace firstapp
+{
+    class Program
+    {
+        static int[] randomArr(){
+            Random rand = new Random();
+            int[] arr = new int[10];
+            for(var i =0; i<arr.Length;i++){
+                arr[i] = rand.Next(5,26);
+            }
+            var max= arr[0];
+            var min = arr[0];
+            var sum = arr[0];
+            for(var i=1;i<arr.Length;i++){
+                if(max<arr[i]){
+                    max = arr[i];
+                }
+                if(min>arr[i]){
+                    min = arr[i];
+                }
+                sum +=arr[i];
+            }
+            Console.WriteLine(max);
+            Console.WriteLine(min);
+            Console.WriteLine(sum);
+            return arr;
+        }
+
+        static string tossCoin(){
+            Console.WriteLine("Tossing a Coin!");
+            Random rand = new Random();
+            string str = "";
+            if(rand.Next(0,2) == 1){
+                str = "head";
+                Console.WriteLine("Head");
+            }
+            else{
+                str = "tail";
+                Console.WriteLine("Tail");
+            }
+            return str;
+        }
+        
+        static double tossMultiple(int num){
+            double count = 0;
+            for(var i = 0; i<num;i++){
+                if(tossCoin()=="head"){
+                    count++;
+                }
+            }
+            double value = count/num;
+            return value;
+        }
+        static string[] names(){
+            string[] names = {"Shawn","Danni","Rob","Tim"};
+            Random rand = new Random();
+            for(var i=0;i<names.Length;i++){
+                var temp = names[i];
+                var randindex = rand.Next(0,4);
+                names[i]=names[randindex];
+                names[randindex] = temp;
+            }   
+            var count = 0;
+            for(var i =0; i<names.Length;i++){
+                Console.WriteLine(names[i]);
+                if(names[i].Length>3){
+                    count++;
+                }
+            }
+            string[] newarr = new string[count];
+            var index = 0;
+            for(var i =0; i<names.Length;i++){
+                if(names[i].Length>3){
+                    newarr[index]=names[i];
+                    index +=1;
+                }
+            }
+            return newarr;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(names());
+        }
+    }
+}

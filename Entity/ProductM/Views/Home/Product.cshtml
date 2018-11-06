@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Product Page";
+}
+<h2>@ViewBag.Product.Name</h2>
+<br>
+<h6>Categories: </h6>
+<ul>
+    @if(@ViewBag.Product.Categories != null){
+        @foreach(var category in @ViewBag.Product.Categories){
+            <li>@category.Category.Name</li>
+        }        
+    }
+</ul>
+<h3>Add Category:</h3>
+<form action="/products/@ViewBag.Product.ProductId" method="POST">
+    <select name="Cid">
+        @foreach(var c in @ViewBag.C){
+            <option value ="@c.CategoryId" >@c.Name</option>
+        }
+    </select>
+    <input type="submit" value="Add category">
+</form>

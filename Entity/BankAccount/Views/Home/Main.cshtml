@@ -1,0 +1,24 @@
+@using BankAccount.Models 
+@model Book
+
+<h1>Welcome @ViewBag.thisuser.Firstname</h1>
+<h3>Current Balance: $ @ViewBag.currentbalance</h3>
+
+<p>@ViewBag.Error</p>
+<form asp-action="transaction" asp-controller="Home" method="POST">
+    <label for="AmountT">Amount: <input asp-for="AmountT"></label>
+    <input type="submit" type="Submit">
+</form>
+
+<table style="text-align: center;">
+    <tr>
+        <td>Amount</td>
+        <td>Date</td>
+    </tr>
+    @foreach(var x in @ViewBag.allbooks){
+        <tr>
+            <td> $ @x.AmountT</td>
+            <td> @x.DateT</td>
+        </tr>
+    }
+</table>

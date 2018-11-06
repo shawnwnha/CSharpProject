@@ -1,0 +1,128 @@
+using System;
+using System.Collections.Generic;
+
+namespace firstapp
+{
+    class Program
+    {
+        static void print255(){
+            for(var i = 1; i<256;i++){
+                Console.WriteLine(i);
+            }
+        }
+        static void printOdd(){
+            for(var i=1;i<256;i++){
+                if(i%2 != 0){
+                    Console.WriteLine(i);
+                }
+            }
+        }
+        static void printSums(){
+            int sum = 0;
+            for(var i =0;i<256;i++){
+                sum += i;
+                Console.WriteLine("New Number: "+i+ " Sum: "+sum);
+            }
+        }
+
+        static void iterateArray(int[] num){
+            foreach(var x in num){
+                Console.WriteLine(x);
+            }
+        }
+
+        static int findMax(int[] num){
+            var max = num[0];
+            for(var x=1; x<num.Length;x++){
+                if(num[x] > max){
+                    max = num[x];
+                }
+            }
+            return max;
+        }
+
+        static double findAvg(int[] num){
+            double sum=0.0;
+            foreach(var x in num){
+                sum+=x;
+            }
+            double avg = (sum / num.Length);
+            return avg;
+        }
+        
+        static int[] ArrayOdds(){
+            int[] y = new int[256/2];
+            int x  = 1;
+            for(var i = 0; i<y.Length;i++){
+                y[i] = x;
+                x+=2;
+            }
+            return y;
+        }
+
+        static int greaterY(int[] arr, int y){
+            int count = 0;
+            for(var i=0;i<arr.Length;i++){
+                if(arr[i]>y){
+                    count += 1;
+                }
+            }
+            return count;
+        }
+        static int[] squareX(int[] arr){
+            for(var i = 0; i <arr.Length;i++){
+                arr[i]= arr[i]*arr[i];
+            }
+            return arr;
+        }
+
+        static int[] deleteNegative(int[] arr){
+            for(var i=0;i<arr.Length;i++){
+                if(arr[i]<0){
+                    arr[i] = 0;
+                }
+            }
+            return arr;
+        }
+        static void maxminavg(int[] arr){
+            var max = arr[0];
+            var min = arr[0];
+            double sum = arr[0]; 
+            for(var i = 1;i<arr.Length;i++){
+                if(arr[i]>max){
+                    max = arr[i];
+                }
+                if(arr[i]<min){
+                    min = arr[i];
+                }
+                sum += arr[i];
+            }
+            var avg = sum/arr.Length;
+            System.Console.WriteLine(max);
+            System.Console.WriteLine(min);
+            System.Console.WriteLine(avg);
+        }
+        static int[] shiftingArray(int[] arr){
+            for(var i=1;i<arr.Length;i++){
+                arr[i-1] = arr[i];
+            }
+            arr[arr.Length-1] = 0;
+
+            return arr;
+        }
+
+        static object[] numtoString(object[] arr){
+            for(var i = 0; i <arr.Length;i++){
+                if((int)arr[i]<0){
+                    arr[i]="Dojo";
+                }
+            }
+            return arr;
+        }
+        static void Main(string[] args)
+        {
+            object [] x = {-1,-2,3,4};
+            Console.WriteLine(numtoString(x));
+        }
+    }
+}

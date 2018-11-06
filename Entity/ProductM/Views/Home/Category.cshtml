@@ -1,0 +1,12 @@
+@model ProductM.Models.Category
+@{
+    ViewData["Title"] = "Category Page";
+}
+<div>
+    <h2>New Category</h2>
+    <form method="POST" asp-controller="Home" asp-action="SubmitCategory">
+        <span asp-validation-for="Name"style="color:red;"></span><br>
+        <label asp-for ="Name">Category Name :<br><input type="text" asp-for="Name"></label><br>
+        <input type="submit" value="Create" style="background-color: white;">
+    </form>
+</div>
